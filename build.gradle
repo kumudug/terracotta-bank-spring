@@ -61,4 +61,9 @@ dependencies {
 	jmh('org.openjdk.jmh:jmh-core:1.19')
 	jmh('org.openjdk.jmh:jmh-generator-annprocess:1.19')
 	jmh('org.apache.httpcomponents:httpclient:4.5')
+
+	compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.0'
+	compile group: 'com.sun.xml.bind', name: 'jaxb-core', version: '2.3.0'
+	compile group: 'com.sun.xml.bind', name: 'jaxb-impl', version: '2.3.0'
+	compile group: 'javax.activation', name: 'activation', version: '1.1.1'
 }
